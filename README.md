@@ -1,4 +1,7 @@
-## Running the Code
+# UI
+#![Screenshot 2024-05-27 at 16 22 52](https://github.com/bar2693lis/Home-assignment-Avanan/assets/48059962/2c753919-8af2-474f-9112-585ff9d18cf7)
+
+# Running the Code
 
 This project is composed of a backend and a frontend, each requiring separate steps to start.
 
