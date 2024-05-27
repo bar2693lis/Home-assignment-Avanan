@@ -25,6 +25,13 @@ const MovieSingleCard = ({ movie, index }) => {
           <span className="text-sm text-gray-500">Director:</span>
           <h2 className="my-1">{movie.director}</h2>
         </div>
+        <div className="flex justify-start items-center gap-x-2">
+          {/* Display the user icon */}
+          <BiUserCircle className="text-red-300 text-2xl flex-shrink-0" />
+          {/* Display the producer label and name */}
+          <span className="text-sm text-gray-500">Producer:</span>
+          <h2 className="my-1">{movie.producer}</h2>
+        </div>
         <div className="flex justify-between items-center mt-4 px-8">
           {/* Display the characters modal */}
           <CharactersModal characters={movie.characters} />
